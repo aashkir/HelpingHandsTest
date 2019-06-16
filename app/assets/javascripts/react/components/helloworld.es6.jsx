@@ -3,7 +3,7 @@ class HelloWorld extends React.Component {
     return (
       <div>
       <p>Hello World</p>
-      {/*<RaisedButton label="HelloWorld" />*/}
+      <MaterialUi.RaisedButton label="HelloWorld" />
       </div>
     )
   }
