@@ -2,7 +2,8 @@ class HelloWorld extends React.Component {
   render() {
     return (
       <div>
-      <RaisedButton label="HelloWorld" />
+      <p>Hello World</p>
+      {/*<RaisedButton label="HelloWorld" />*/}
       </div>
     )
   }
