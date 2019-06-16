@@ -3,7 +3,7 @@ class HelloWorld extends React.Component {
     return (
       <div>
         <p>Hello World</p>
-        <MaterialUi.RaisedButton label="HelloWorld" backgroundColor="red"/>
+        <MaterialUi.RaisedButton label="HelloWorld" backgroundColor="red" onClick={() => {alert('Congratulations, we made it');}}/>
       </div>
     )
   }
